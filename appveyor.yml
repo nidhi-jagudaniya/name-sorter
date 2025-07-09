@@ -12,7 +12,7 @@ build_script:
   - java -version
   - mvn -version
   - mvn clean install
-  - java -cp target/name-sorter-1.0-SNAPSHOT.jar Main "resources/unsorted-names-list.txt"
+  - java -cp target/name-sorter-1.0.jar Main "resources/unsorted-names-list.txt"
 
 cache:
   - ~/.m2  # Cache Maven dependencies
