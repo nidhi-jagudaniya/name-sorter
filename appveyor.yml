@@ -16,7 +16,7 @@ build_script:
   - java -cp target/name-sorter-1.0.jar Main "resources/unsorted-names-list.txt"
 
 cache:
-  - ~/.m2  # Cache Maven dependencies
+  - /home/appveyor/.m2  # Cache Maven dependencies
 
 artifacts:
   - path: target/*.jar
