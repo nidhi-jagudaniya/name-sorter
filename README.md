@@ -17,7 +17,7 @@ writes them to a new output file.
 - Clean, modular design with separation of concerns using service classes and interfaces.
 - Generic Reader, Writer, and Sorter interfaces for easy extension to other types of data.
 - Unit tests implemented using JUnit and Mockito.
-- AppVeyor CI is configured to:
+- AppVeyor CI is configured at **https://ci.appveyor.com/project/nidhi-jagudaniya/name-sorter** to:
     - Trigger builds on every commit or pull request.
     - Build and run the application (Main class).
     - Output the sorted names in the AppVeyor build logs
