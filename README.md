@@ -27,7 +27,7 @@ Make sure you have the following software installed:
 - Click **"Edit the system environment variables"**.
 - Under System variables,find and select **Path** -> click **Edit**.
 - Click **New** and add full path to the bin folder of installed java - **C:\Program Files\Java\jdk-17\bin**
-- Verify by running **java -version** in Command Prompt.
+- Verify by running `java -version` in Command Prompt.
 
 #### To run from InteliJIdea
 - Install IntelliJIdea Community Edition from **https://www.jetbrains.com/idea/download/?section=windows**
@@ -43,7 +43,7 @@ Make sure you have the following software installed:
 #### From Command-line
 - You can place your file to test in **src/main/java/resources/** folder and change file name in below command or give absolute path of file in your device.
 - Go inside project folder NameSorter and open command-line at that location.
-- Run **java -jar target/name-sorter-1.0-SNAPSHOT.jar "resources/unsorted-names-list.txt"**
+- Run `java -jar target/name-sorter-1.0-SNAPSHOT.jar "resources/unsorted-names-list.txt"`
 - That will print sorted list and add it to the file at **resources/sorted-names-list.txt**
 
 #### From InteliJIdea
@@ -55,5 +55,3 @@ Make sure you have the following software installed:
 - Run NameSorter-clean-install to build project from Run configuration.
 - Run NameSorter-Run to run project from Run configuration.
 - It will print sorted names on console, and it will also write in the file **resources/sorted-names-list.txt**
-
-mented unit test cases.
