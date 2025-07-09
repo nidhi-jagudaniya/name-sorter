@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/github/nidhi-jagudaniya/name-sorter?branch=main&svg=true)](https://ci.appveyor.com/project/nidhi-jagudaniya/name-sorter)
+
+
 # NameSorter
 
 **NameSorter** is a Java command-line application that reads a list of unsorted names from a text file, sorts them alphabetically by last name (then by given names if last names match), displays the sorted names to the console, and writes them to a new output file.
@@ -36,9 +39,9 @@ Make sure you have the following software installed:
 - Install Maven 3.9.9 and add in System path.
 ---
 ## How to Run
-- Clone git repo from
+- Clone git repo from **https://github.com/nidhi-jagudaniya/name-sorter**
 - Main method is at **NameSorter/src/main/java/Main.java**.
-- Two ways to run the program one is from commandline and from IDE.
+- Two ways to run the program one is from command-line and from IDE.
 
 #### From Command-line
 - You can place your file to test in **src/main/java/resources/** folder and change file name in below command or give absolute path of file in your device.
