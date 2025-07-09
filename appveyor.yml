@@ -12,6 +12,7 @@ build_script:
   - java -version
   - mvn -version
   - mvn clean install
+  - ls -l target
   - java -cp target/name-sorter-1.0.jar Main "resources/unsorted-names-list.txt"
 
 cache:
