@@ -44,7 +44,7 @@ writes them to a new output file.
   absolute path of file in your device.
 - Go inside project folder NameSorter and open command-line at that location.
 - Run `mvn clean install` to build the project.
-- Run `java -jar target/name-sorter-1.0-SNAPSHOT.jar "resources/unsorted-names-list.txt"`
+- Run `java -jar target/name-sorter-1.0.jar "resources/unsorted-names-list.txt"`
 - It will print sorted names on command-line, and it will also write in the file **resources/sorted-names-list.txt**
 
 ### From InteliJIdea
